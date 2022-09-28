@@ -3,48 +3,48 @@
         "id": "a",
         "name": "Dumble",
         "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "timeDuration": 30,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids"
     },
     {
         "id": "b",
-        "name": "Dumble",
-        "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "name": "Dumbbell",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/13/50/00/1000_F_213500068_MAPFyo9uvnjldhZL8FB5utTtTyoWpRo2.jpg",
+        "timeDuration": 20,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "Dumbbells can provide the two types of overload that lead to muscle growth: mechanic and metabolic. Mechanic overload is the result of damaged caused by muscle contractions, which stimulates the repair process and leads to an increase in muscle size. "
     },
     {
         "id": "c",
-        "name": "Dumble",
-        "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "name": "Running",
+        "img": "https://theglossarymagazine.com/wp-content/uploads/2020/07/CC_OUTDOORS_SHOOT_1_HIGHRES_DANIELHARRIS_L1002000.jpg",
+        "timeDuration": 40,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "Running may always be our number one sport, but it’s always good to try new things. If you are looking to add something new to your workout routine, there are many other activities waiting for you! Cross-training provides lots of opportunities to put new demands on your body."
     },
     {
         "id": "d",
-        "name": "Dumble",
-        "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "name": "Plank",
+        "img": "https://blog-images.pharmeasy.in/2021/01/06152556/3.jpg",
+        "timeDuration": 30,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "Planking provides many physical benefits. Strengthening the core is an important aspect of any workout regimen. A strong and solid core looks and feels good. But more importantly, it helps to stabilize, balance, and power the body during just about every other activity."
     },
     {
         "id": "e",
-        "name": "Dumble",
-        "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "name": "Walking",
+        "img": "https://static.toiimg.com/photo/75420799.cms",
+        "timeDuration": 30,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "Walking is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits. Walking is defined by an 'inverted pendulum' gait in which the body vaults over the stiff limb or limbs with each step."
     },
     {
         "id": "f",
-        "name": "Dumble",
-        "img": "https://cdn.shopify.com/s/files/1/1103/4864/articles/Make-It-to-the-Gym_1024x1024.jpg?v=1533016630",
-        "time": "30m",
+        "name": "Swimming",
+        "img": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
+        "timeDuration": 30,
         "age": "25-30",
-        "desc": "Et elitr justo amet justo aliquyam dolores labore. Ipsum sea amet ut et sed dolor diam. Voluptua sit sed takimata."
+        "desc": "Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival. Locomotion is achieved through coordinated movement of the limbs and the body to achieve hydrodynamic thrust which results in directional motion."
     }
 ]

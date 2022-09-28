@@ -1,8 +1,27 @@
 import React from 'react';
 import './Exercise.css';
-const Exercise = ({ props }) => {
-    // console.log(props);
-    const { img, name, age, time, desc } = props.exercise;
+const Exercise = ({ exercise, time, setTime }) => {
+
+
+    const { id, img, name, age, timeDuration, desc } = exercise;
+
+    const handClick = () => {
+        let newTime = {
+            timeDuration
+        };
+
+        // const cart = JSON.parse(localStorage.getItem('card'));
+        if (time?.length) {
+            setTime([...time, newTime]);
+            return;
+        } else {
+            setTime([newTime]);
+            return;
+        }
+
+        // console.log(time);
+    };
+
     return (
         <div className='exercise-box'>
             <img src={img} alt="" />
@@ -10,9 +29,9 @@ const Exercise = ({ props }) => {
                 <h4>{name}</h4>
                 <p>{desc}</p>
                 <p>age: {age}</p>
-                <p>Time: {time}</p>
+                <p>Time: {timeDuration}m</p>
             </div>
-            <button className='list-btn btn btn-primary'>Add to list</button>
+            <button onClick={() => handClick()} className='list-btn btn btn-primary'>Add to list</button>
 
         </div>
     );

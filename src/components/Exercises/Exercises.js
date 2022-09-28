@@ -24,6 +24,7 @@ const Exercises = ({ time, setTime }) => {
                         key={exercise.id}
                         time={time}
                         setTime={setTime}
+
                     ></Exercise>))
                 }
             </div>
