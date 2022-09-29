@@ -30,11 +30,11 @@
     border-radius: 0 0 10px 10px;
 }
 
-/* responsive----
- */
+/* responsive---- */
 
-@media (max-width:768px) {
+
+@media (max-width:560px) {
     .exercise-box {
-        width: 200px;
+        width: 190px;
     }
 }
