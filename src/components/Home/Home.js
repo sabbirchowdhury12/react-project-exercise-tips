@@ -10,9 +10,15 @@ const Home = () => {
 
     const breakTime = (time) => {
         localStorage.setItem('time', time);
-        const brakeTime = localStorage.getItem("time");
-        setCount(brakeTime);
+        setCount(time);
     };
+
+    useEffect(() => {
+        const getItem = localStorage.getItem('time');
+        setCount(getItem);
+
+    }, []);
+
     return (
         <div className='home'>
             <div className="exercise">
@@ -25,7 +31,7 @@ const Home = () => {
                 <Cart></Cart>
                 <div className="button">
                     <h2>Add a Break</h2>
-                    <button onClick={() => breakTime(10)}>10s</button>
+                    <button onClick={(e) => breakTime(10)}>10s</button>
                     <button onClick={() => breakTime(20)}>20s</button>
                     <button onClick={() => breakTime(30)}>30s</button>
                     <button onClick={() => breakTime(40)}>40s</button>
