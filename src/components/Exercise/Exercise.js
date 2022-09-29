@@ -22,14 +22,15 @@ const Exercise = ({ exercise, time, setTime }) => {
         // console.log(time);
     };
 
+    const dots = "...";
     return (
         <div className='exercise-box'>
             <img src={img} alt="" />
             <div className="info">
                 <h4>{name}</h4>
-                <p>{desc}</p>
+                <p>{desc.slice(0, 108)}{dots}</p>
                 <p>age: {age}</p>
-                <p>Time: {timeDuration}m</p>
+                <p>Time: {timeDuration}</p>
             </div>
             <button onClick={() => handClick()} className='list-btn btn btn-primary'>Add to list</button>
 
