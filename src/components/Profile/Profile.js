@@ -7,8 +7,9 @@ const Profile = () => {
         <div className='profile'>
             <img src={img} alt="" />
             <div className='profile-info'>
-                <p className='name text-center'>Mehzabien Chowdhury</p>
-                <p className='text-center'>Manikganj, Dhaka</p>
+                <p className='name text-center'>Sabbir Chowdhury</p>
+                <p className='text-center m-0'>Manikganj, Dhaka</p>
+                <p className='text-center'>Age: 22</p>
             </div>
         </div>
     );

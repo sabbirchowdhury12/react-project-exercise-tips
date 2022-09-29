@@ -30,7 +30,7 @@ const Exercise = ({ exercise, time, setTime }) => {
                 <h4>{name}</h4>
                 <p>{desc.slice(0, 108)}{dots}</p>
                 <p>age: {age}</p>
-                <p>Time: {timeDuration}</p>
+                <p>Time: {timeDuration}s</p>
             </div>
             <button onClick={() => handClick()} className='list-btn'>Add to list</button>
 

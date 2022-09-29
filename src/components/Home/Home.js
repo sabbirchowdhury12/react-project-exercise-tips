@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Question from '../Question/Question';
 
 const Home = () => {
-    const notify = () => toast("Wow so easy!", { position: "top-center" });
+    const notify = () => toast("Congratulation. You Done it..||", { position: "top-center", theme: "dark" });
     const [time, setTime] = useState([]);
     const [total, setTotal] = useState(0);
     const [count, setCount] = useState(0);
