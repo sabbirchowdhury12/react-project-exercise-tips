@@ -3,7 +3,7 @@ import './Exercise.css';
 const Exercise = ({ exercise, time, setTime }) => {
 
 
-    const { id, img, name, age, timeDuration, desc } = exercise;
+    const { img, name, age, timeDuration, desc } = exercise;
 
     const handClick = () => {
         let newTime = {

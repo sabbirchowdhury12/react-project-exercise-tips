@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 
 import Profile from '../Profile/Profile';
 import './Cart.css';
