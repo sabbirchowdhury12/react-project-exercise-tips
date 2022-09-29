@@ -65,7 +65,7 @@ const Home = () => {
                         </div>
                         <div className="break-time">
                             <p>Break time: </p>
-                            <p>{count} seconds</p>
+                            <p>{count ? count : 0} seconds</p>
 
                         </div>
 
