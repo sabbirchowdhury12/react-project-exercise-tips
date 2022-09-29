@@ -32,7 +32,7 @@ const Exercise = ({ exercise, time, setTime }) => {
                 <p>age: {age}</p>
                 <p>Time: {timeDuration}</p>
             </div>
-            <button onClick={() => handClick()} className='list-btn btn btn-primary'>Add to list</button>
+            <button onClick={() => handClick()} className='list-btn'>Add to list</button>
 
         </div>
     );

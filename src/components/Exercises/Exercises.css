@@ -1,6 +1,4 @@
-.workout-container {
-    margin: 100px 5%;
-}
+.workout-container {}
 
 .exercise-container {
     display: grid;

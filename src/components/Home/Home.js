@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import Cart from '../Cart/Cart';
 import Exercises from '../Exercises/Exercises';
+import Header from '../Header/Header';
 import './Home.css';
 
 const Home = () => {
@@ -21,29 +22,45 @@ const Home = () => {
 
     return (
         <div className='home'>
-            <div className="exercise">
-                <Exercises
-                    time={time}
-                    setTime={setTime}>
-                </Exercises>
+            <div className="left-sight">
+                <Header></Header>
+                <div className="exercise">
+                    <Exercises
+                        time={time}
+                        setTime={setTime}>
+                    </Exercises>
+                </div>
             </div>
+
             <div className="cart">
                 <Cart></Cart>
-                <div className="button">
-                    <h2>Add a Break</h2>
-                    <button onClick={(e) => breakTime(10)}>10s</button>
-                    <button onClick={() => breakTime(20)}>20s</button>
-                    <button onClick={() => breakTime(30)}>30s</button>
-                    <button onClick={() => breakTime(40)}>40s</button>
+                <div className="break">
+                    <h4 className='break-name'>Add A Break</h4>
+                    <div className="button">
+                        <button onClick={(e) => breakTime(10)}>10s</button>
+                        <button onClick={() => breakTime(20)}>20s</button>
+                        <button onClick={() => breakTime(30)}>30s</button>
+                        <button onClick={() => breakTime(40)}>40s</button>
+                    </div>
                 </div>
                 <div className="deatails">
-                    <h2>Exercise Deatails</h2>
-                    <h2>Exercise Time: {count}</h2>
-                    <h2>Exercise time: {
-                        !time.length ? 0 : time.reduce((prev, current) => prev + current.timeDuration, 0)
-                    }</h2>
+                    <h4 className='detail-name'>Exercise Deatails</h4>
+                    <div className="time-total">
+                        <p>Exercise Time: </p>
+                        <p>{count} seconds</p>
+                    </div>
+                    <div className="break-time">
+                        <p>Break time: </p>
+                        <p>
+                            {
+                                !time.length ? 0 : time.reduce((prev, current) => prev + current.timeDuration, 0)
+                            } seconds
+                        </p>
+                    </div>
 
                 </div>
+
+                <button className='btn-completed'>Completed</button>
             </div>
         </div>
     );

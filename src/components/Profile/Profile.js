@@ -7,10 +7,9 @@ const Profile = () => {
         <div className='profile'>
             <img src={img} alt="" />
             <div className='profile-info'>
-                <h4 className='m-0 p-0'>Sabbir Chowdhury</h4>
-                <p className='m-0 p-0'>MAnikganj, Dhaka</p>
+                <p className='name'>Mehzabien Chowdhury</p>
+                <p className='text-center'>Manikganj, Dhaka</p>
             </div>
-
         </div>
     );
 };

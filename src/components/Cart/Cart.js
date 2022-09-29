@@ -10,9 +10,6 @@ const Cart = () => {
     return (
         <div className='cart'>
             <Profile></Profile>
-
-
-
         </div>
     );
 };

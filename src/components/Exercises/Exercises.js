@@ -15,8 +15,6 @@ const Exercises = ({ time, setTime }) => {
 
     return (
         <div className='workout-container'>
-            <h2>ULTra-Active</h2>
-            <h4>Select T0days Exercise</h4>
             <div className='exercise-container'>
                 {
                     exercises.map((exercise => <Exercise
