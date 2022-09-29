@@ -14,20 +14,20 @@ const Exercises = ({ time, setTime }) => {
     }, []);
 
     return (
-        <div className='workout-container'>
-            <div className='exercise-container'>
-                {
-                    exercises.map((exercise => <Exercise
-                        exercise={exercise}
-                        key={exercise.id}
-                        time={time}
-                        setTime={setTime}
 
-                    ></Exercise>))
-                }
-            </div>
+        <div className='exercise-container'>
+            {
+                exercises.map((exercise => <Exercise
+                    exercise={exercise}
+                    key={exercise.id}
+                    time={time}
+                    setTime={setTime}
 
+                ></Exercise>))
+            }
         </div>
+
+
     );
 };
 

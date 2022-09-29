@@ -1,9 +1,6 @@
 .exercise-box {
     width: 220px;
     background: #d3c3df;
-    /* background: rgb(245, 217, 217); */
-    /* background: #6f42c1; */
-    /* color: white; */
     border-radius: 10px;
     position: relative;
 }
@@ -31,4 +28,13 @@
     padding: 7px;
     color: white;
     border-radius: 0 0 10px 10px;
+}
+
+/* responsive----
+ */
+
+@media (max-width:768px) {
+    .exercise-box {
+        width: 200px;
+    }
 }

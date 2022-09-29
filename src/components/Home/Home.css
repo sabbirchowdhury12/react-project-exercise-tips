@@ -87,3 +87,18 @@
 
     }
 }
+
+
+@media (max-width:768px) {
+    .left-sight {
+        padding: 20px;
+    }
+}
+
+@media (max-width:560px) {
+
+    .time-total,
+    .break-time {
+        flex-direction: column;
+    }
+}

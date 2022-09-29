@@ -47,15 +47,16 @@ const Home = () => {
                     <h4 className='detail-name'>Exercise Deatails</h4>
                     <div className="time-total">
                         <p>Exercise Time: </p>
-                        <p>{count} seconds</p>
-                    </div>
-                    <div className="break-time">
-                        <p>Break time: </p>
                         <p>
                             {
                                 !time.length ? 0 : time.reduce((prev, current) => prev + current.timeDuration, 0)
                             } seconds
                         </p>
+                    </div>
+                    <div className="break-time">
+                        <p>Break time: </p>
+                        <p>{count} seconds</p>
+
                     </div>
 
                 </div>

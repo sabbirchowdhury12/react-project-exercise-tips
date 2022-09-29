@@ -7,7 +7,7 @@ const Profile = () => {
         <div className='profile'>
             <img src={img} alt="" />
             <div className='profile-info'>
-                <p className='name'>Mehzabien Chowdhury</p>
+                <p className='name text-center'>Mehzabien Chowdhury</p>
                 <p className='text-center'>Manikganj, Dhaka</p>
             </div>
         </div>
